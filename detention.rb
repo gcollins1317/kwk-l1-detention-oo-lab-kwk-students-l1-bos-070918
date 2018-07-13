@@ -4,7 +4,7 @@ class Detention
     @activity = activity
     @students = students 
   end 
-  def add_students 
+  def add_student 
     
   end 
 end 
