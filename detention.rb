@@ -5,6 +5,6 @@ class Detention
     @students = students 
   end 
   def add_student(name) 
-    name 
+   students.push(name)  
   end 
 end 
