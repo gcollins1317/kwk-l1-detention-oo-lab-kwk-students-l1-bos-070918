@@ -7,4 +7,7 @@ class Detention
   def add_student(name) 
    students.push(name)  
   end 
+  def remove_student(name)
+   students.delete(name) 
+  end
 end 
